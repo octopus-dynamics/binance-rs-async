@@ -412,7 +412,7 @@ pub struct HistoricalTrade {
     pub price: f64,
     #[serde(rename = "qty", with = "string_or_float")]
     pub quantity: f64,
-    #[serde(rename = "quoteQty",with = "string_or_float")]
+    #[serde(rename = "quoteQty", with = "string_or_float")]
     pub quote_quantity: f64,
     pub is_buyer_maker: bool,
     pub is_best_match: bool,
